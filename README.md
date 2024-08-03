@@ -1,4 +1,4 @@
-# Scheduling games for the new Champions League format with Mixed Integer Programming
+# Scheduling games for the new Champions League format with Integer Programming
 
 _Disclaimer: This project is for recreational purposes only. The software is provided under the MIT license._
 
@@ -15,7 +15,7 @@ Key Constraints:
 - **No Country Derbies**: Teams will not play against others from the same federation
   
 This project aims to create a feasible schedule by formulating an optimization model that includes binary decision variables, multiple linear constraints and no objective function. 
-This is a classic case of Mixed Integer Programming. The solution generated will satisfy the constraints mentioned above.
+This is a classic case of Integer Programming. The solution generated will satisfy the constraints mentioned above.
 
 The official schedule by UEFA will differ and likely incorporate additional constraints, such as:
 
